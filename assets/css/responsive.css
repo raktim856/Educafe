@@ -1,0 +1,53 @@
+
+@media only screen and (max-width: 769px) {
+    .carousel-caption{
+        display: none !important;
+    }
+    .bg-campus{
+        background: transparent !important;
+    }
+    .responsive-pb-0{
+        padding-bottom: 0px !important;
+    }
+    .responsive-py-0{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .responsive-image{
+        height: 400px !important;
+        position: relative !important;
+        /* left: 22%; */
+        padding-bottom: 10px !important;
+    }
+    .responsive-text-center{
+        text-align: center !important;
+    }
+    .responsive-pt-10{
+        padding-top: 10px !important;
+    }
+    .responsive-mb-0{
+        margin-bottom: 0px !important;
+    }
+    .responsive-mb-3rem{
+        margin-bottom: 1.5rem !important;
+    }
+    .responsive-px-10{
+        padding: 0px 10px !important;
+    }
+    .responsive-pr-15{
+        padding-right: 15px !important;
+    }
+    .cta-email{
+        width: 50% !important;
+    }
+    .responsive-ml-4{
+        margin-left: 1.5rem !important;
+    }
+    .responsive-center{
+        text-align: center !important;
+    }
+    .footer-icon{
+        display: flex !important;
+        justify-content: center !important;
+    }
+  }

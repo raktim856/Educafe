@@ -1,0 +1,390 @@
+/*******************************************
+*   Project Name: educafe;
+*   Project Start Date: 26-11-2022;
+*   Project Client Name: Raktim Majumder;
+*   Total Page: 07;
+*   Project Section:
+*    1.Hero Area
+*    2.About Us
+*    3.Popular Course
+*    4.Facts
+*    5.Recent News
+*    6.Testimonial
+*    7.Cta
+*    8.Footer
+********************************************/
+/***************************************
+            Base Css Start
+****************************************/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none !important;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    margin: 0;
+    padding: 0;
+}
+/***************************************
+            Base Css End
+****************************************/
+/***************************************
+            Common Css Start
+****************************************/
+.first-color{
+    color: #56ab2f !important;
+}
+.second-color{
+    color: #222222 !important;
+}
+.third-color{
+    color: #ffffff !important;
+}
+.first-bg{
+    background-color: #56ab2f !important;
+}
+.second-bg{
+    background-color: #222222 !important;
+}
+.third-bg{
+    background-color: #ffffff !important;
+}
+.border-hover:hover{
+    border-color: #56ab2f !important;
+}
+.btn:focus{
+    box-shadow: none !important;
+}
+.card{
+    border-radius: 0 !important;
+}
+.fs-14{
+    font-size: 14px !important;
+}
+.fs-18{
+    font-size: 18px !important;
+}
+/***************************************
+            Common Css End
+****************************************/
+/*=============================== Home Page Start ==============================*/
+/***************************************
+            Hero Area Css Start
+****************************************/
+.topbar{
+    height: 49px;
+    line-height: 49px;
+    width: 100%;
+}
+.menu-item{
+    margin-left: 30px;
+}
+.menu-item:first-child{
+    margin-left: 0;
+}
+.right-topbar-menu .menu-item:first-child::after{
+    content: "|";
+    color: #9db493;
+    margin-left: 12px;
+}
+.right-topbar-menu .menu-item:last-child{
+    margin-left: 12px !important;
+}
+.nav-link:focus{
+    color: #56ab2f !important;
+}
+.navbar-toggler:focus{
+    outline: 2px solid #56ab2f !important;
+}
+.slideerText{
+    position: absolute;
+    top: 44%;
+    left: 55%;
+}
+.slider-btn1{
+    background-color: #56ab2f !important;
+    border: 2px solid #56ab2f !important;
+    border-radius: 0 !important;
+    color: white !important;
+}
+.slider-btn1:focus{
+    background-color: transparent !important;
+    border: 2px solid #56ab2f !important;
+    border-radius: 0 !important;
+    color: black !important;
+    box-shadow: none !important;
+}
+.slider-btn2{
+    background-color: transparent !important;
+    border: 2px solid #56ab2f !important;
+    border-radius: 0 !important;
+    color: black !important;
+}
+.slider-btn2:focus{
+    background-color: #56ab2f !important;
+    border: 2px solid #56ab2f !important;
+    border-radius: 0 !important;
+    color: white !important;
+    box-shadow: none !important;
+}
+/***************************************
+            Hero Area Css End
+****************************************/
+/***************************************
+            About Us Css Start
+****************************************/
+.bg-campus{
+    background-image: url(../img/about/campus.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.about-image{
+    height: 290px;
+    position: absolute;
+    left: -1%;
+    top: 30px;
+}
+/***************************************
+            About Us Css End
+****************************************/
+/***************************************
+        Popular Course Css Start
+****************************************/
+.hr{
+    box-sizing: border-box;
+    padding: 0px 100px;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    top: 40%;
+    font-size: 50px;
+}
+.owl-carousel .owl-nav button.owl-next:hover, .owl-carousel .owl-nav button.owl-prev:hover{
+    background-color: transparent;
+    color: #222222;
+}
+.owl-carousel .owl-nav button.owl-next:focus, .owl-carousel .owl-nav button.owl-prev:focus{
+    outline: none;
+}
+.owl-carousel .owl-nav button.owl-next{
+    right: -5%;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    left: -5%;
+}
+.browse-button{
+    background-color: transparent !important;
+    border: 2px solid #56ab2f !important;
+    border-radius: 0 !important;
+    color: black !important;
+    padding: 8px;
+}
+.browse-button:hover{
+    background-color: #56ab2f !important;
+    border: 2px solid #56ab2f !important;
+    color: white !important;
+}
+/***************************************
+        Popular Course Css End
+****************************************/
+/***************************************
+            Facts Css Start
+****************************************/
+.facts{
+    background-image: url(../img/facts/bg.jpg);
+    background-attachment: fixed;
+}
+
+/***************************************
+            Facts Css End
+****************************************/
+/***************************************
+        Recent News Css Start
+****************************************/
+.blog-image{
+    height: 100% !important;
+    width: 100% !important;
+}
+.a-hover:hover{
+    color: #56ab2f !important;
+}
+/***************************************
+        Recent News Css End
+****************************************/
+/***************************************
+            Testimonial Css Start
+****************************************/
+.testimonial{
+    background-image: url(../img/testimonial/bg.jpg);
+    background-attachment: fixed !important;
+}
+.testimonial-img{
+    height: 100px !important;
+    width: 100px !important;
+    margin-left: 36% !important;
+    margin-bottom: -15% !important;
+}
+.testimonial-body{
+    background-color: #ffffff;
+    border: 30px solid transparent !important;
+    border-image: url(../img/testimonial/testimonial-shape.png) 50% round !important;
+    border-top: none !important;
+
+}
+/***************************************
+            Testimonial Css End
+****************************************/
+/***************************************
+            Cta Css Start
+****************************************/
+.cta-email::placeholder{
+    color: #ffffff !important;
+}
+.cta-email{
+    width: 29%;
+    height: 42px;
+    outline: none;
+    border: 1px solid #ffffff;
+    padding-left: 10px;
+    color: #ffffff;
+    background-color: transparent;
+}
+.cta-email:focus{
+    outline: none !important;
+    border: 1px solid #ffffff !important;
+}
+.cta-btn{
+    padding: 8px 15px;
+    border: 2px solid rgb(159, 156, 156);
+}
+/***************************************
+            Cta Css End
+****************************************/
+/***************************************
+            Footer Css Start
+****************************************/
+.footer-list{
+    line-height: 30px !important;
+}
+.footer-list li a span:hover{
+    color: #56ab2f !important;
+}
+.footer-hr{
+    background-color: #56ab2f;
+}
+.footer-icon{
+    display: flex !important;
+    justify-content: flex-end !important;
+}
+.footer-icon li{
+    height: 30px !important;
+    width: 30px !important;
+    border: 1px solid #ffffff !important;
+    border-radius: 50% !important;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 15px;
+}
+.footer-icon li:first-child{
+    margin-left: 0;
+}
+.footer-icon li:hover a{
+    color: #56ab2f !important;
+}
+/***************************************
+            Footer Css End
+****************************************/
+/*=============================== Home Page End ==============================*/
+/*=============================== About Us Page Start ==============================*/
+.bread-crumb{
+    background-image: url(../img/bread-crumb/bread-crumb-backgroun.jpg);
+}
+.aboutus{
+    position: relative;
+}
+.bg-campus{
+    position: relative;
+}
+.aboutus-image{
+    height: 290px;
+    position: absolute;
+    left: -1%;
+    bottom: -40px;
+}
+/*=============================== About Us Page End ==============================*/
+/*=============================== All Course Page Start ==============================*/
+.bc-btn{
+    border: 1px solid #56ab2f;
+    border-radius: 0 !important;
+}
+.overline{
+    text-decoration: 2px overline #56ab2f;
+    
+}
+.calender-size{
+    height: 38.1px;
+}
+/*=============================== All Course Page End ==============================*/
+/*=============================== Course Details Page Start ==============================*/
+.instructor-icon{
+    display: flex;
+}
+.instructor-icon li{
+    height: 30px !important;
+    width: 30px !important;
+    text-align: center !important;
+    line-height: 30px !important;
+    border: 1px solid #000000 !important;
+    border-radius: 50% !important;
+}
+.instructor-icon li:hover a{
+    color: #56ab2f !important;
+}
+/*=============================== Course Details Page End ==============================*/
+/*=============================== Our Teacher Page Start ==============================*/
+.teacher-icon li{
+    height: 30px !important;
+    width: 30px !important;
+    text-align: center !important;
+    line-height: 30px !important;
+    border: 1px solid #000000 !important;
+    border-radius: 50% !important;
+}
+/*=============================== Our Teacher Page End ==============================*/
+/*=============================== Contact Page Start ==============================*/
+.contact-details li a i{
+    border: 1px solid #56ab2f !important;
+    color: white !important;
+    background-color: #56ab2f !important;
+    height: 30px !important;
+    width: 30px !important;
+    text-align: center !important;
+    line-height: 30px !important;
+    border-radius: 50%;
+}
+.contact-input{
+    height: 40px;
+    width: 100%;
+    padding-left: 10px;
+    /* border-radius: 0 !important; */
+    margin-bottom: 15px;
+}
+.contact-input:focus{
+    border-radius: 0 !important;
+}
+.contact-textarea{
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+/*=============================== Contact Page End ==============================*/
